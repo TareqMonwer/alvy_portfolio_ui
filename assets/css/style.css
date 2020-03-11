@@ -1,0 +1,192 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Generics */
+@font-face {
+  font-family: "AdamCCpro";
+  src: url("../fonts/adamcgpro.otf");
+}
+img {
+  width: 100%;
+}
+.btn.border-btn-white {
+  padding: 15px !important;
+  align-self: center;
+  background: red;
+  border-radius: 3px;
+  font-weight: 600;
+}
+/* Header Section */
+#header {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  background: #070707;
+  min-height: 100vh;
+}
+
+#header a {
+  color: #fff;
+}
+
+#header .contact-menu {
+  padding: 15px 0;
+}
+
+#header .contact-menu .container-fluid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#header .contact-menu .container-fluid .contact-menu--left {
+  display: flex;
+}
+
+#header .contact-menu .container-fluid .contact-menu--left > p {
+  margin-right: 30px;
+}
+
+#header .contact-menu .container-fluid .contact-menu--left p b {
+  font-weight: bold;
+  margin-right: 8px;
+}
+
+#header .contact-menu .container-fluid .contact-menu--right a:not(:last-child) {
+  margin-right: 10px;
+}
+
+#header .header-container .navbar .container-fluid {
+  display: flex;
+  justify-content: space-between;
+}
+
+#header .navbar {
+  border-top: 1px solid #333131;
+  border-bottom: 1px solid #333131;
+  background-color: (28, 28, 28, 0.2);
+}
+
+#header .header-container .nav-items {
+  display: flex;
+}
+
+#header .header-container .nav-items a:not(:last-child) {
+  margin-right: 60px;
+}
+
+#header .header-container .nav-items a {
+  text-transform: uppercase;
+  padding: 25px 0;
+  text-decoration: none;
+}
+
+.header-container--content {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  align-items: center;
+  margin-top: 10%;
+  font-family: "AdamCCpro", sans-serif;
+}
+
+.header-container--content .text h1 {
+  font-size: 300px;
+  color: #ececec;
+  position: relative;
+}
+
+.header-container--content .text h1::after {
+  content: "Alvy";
+  color: rgba(38, 37, 37, 0.2);
+  position: absolute;
+  left: -298px;
+  font-size: 600px;
+  text-align: center;
+  top: -179px;
+  z-index: -10;
+}
+
+.header-container--content .text {
+  width: 60%;
+  text-align: left;
+  margin-left: 200px;
+  z-index: 6;
+  /* background-color: rebeccapurple; */
+}
+
+.header-container--content .image {
+  max-width: 500px;
+  position: relative;
+  top: 0;
+  right: 300px;
+  z-index: 5;
+}
+
+.header-container--content .image img {
+  border-radius: 50%;
+}
+
+/* ABOUT */
+
+#about {
+  position: relative;
+  padding: 200px 0;
+  /* height: 100%; */
+  /* background: red; */
+}
+
+#about .about-title {
+  font-size: 100px;
+  transform: rotate(-90deg);
+  z-index: -1;
+  position: absolute;
+  top: 260px;
+}
+
+#about .about-title::before {
+  content: "About";
+  font-size: 200px;
+  z-index: -2;
+  color: rgb(236, 236, 236);
+  position: absolute;
+  left: -119px;
+  top: -87px;
+}
+
+.about--container {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+}
+
+.about--container .about--text {
+  width: 500px;
+  margin-left: 280px;
+  line-height: 30px;
+}
+
+.about--container .about--text > p::first-letter {
+  font-size: 25px;
+}
+
+.about--container .about--image {
+  width: 30%;
+}
+
+.about--text .info {
+  margin-top: 40px;
+}
+
+.about--text .info .info-label {
+  font-weight: bold;
+  font-style: italic;
+  margin-right: 20px;
+  border-bottom: 3px dotted rgb(247, 66, 66);
+}
+
+.about--text .info .about--image {
+  box-shadow: -20px -20px #ececec;
+}
